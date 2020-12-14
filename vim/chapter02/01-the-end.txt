@@ -1,0 +1,19 @@
+The end is nigh 
+
+--- 光标在最后，删除nigh ---
+
+The end is
+
+1. -- db --  x --
+
+The end is 
+
+2. -- b -- dw
+
+The end is
+
+3. --- daw -- delete a word
+
+daw 前切当前单词
+
+das 剪切一个句子

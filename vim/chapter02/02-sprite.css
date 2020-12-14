@@ -1,0 +1,15 @@
+.blog, .news { background-image: url(/sprite.png); }
+.blog { background-position: 0px 0px; }
+
+=== 
+复制最后一行，并 news --> blog; 0px --> -180px
+===
+
+.blog, .news { background-image: url(/sprite.png); }
+.blog { background-position: 0px 7px; }
+.news { background-position: -180px 0px; }
+
+yyp 辅助并粘贴一行
+cw 修改单词
+ctrl+a / ctrl+x 在单词上加减 180<ctrl+x> 直接把0变成-180
+
