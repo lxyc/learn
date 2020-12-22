@@ -1,0 +1,19 @@
+Chapter         Page
+Normal mode     15
+Insert mode     51
+Visual mode     44
+
+====== ctrl+v jjj r -
+
+Chapter      |  Page
+------------------
+Normal mode  |  15
+Insert mode  |  51
+Visual mode  |  44
+
+
+Chapter     |   Page
+--------------------
+Normal mode |   15
+Insert mode |   51
+Visual mode |   44
