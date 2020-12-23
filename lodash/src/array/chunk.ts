@@ -4,10 +4,11 @@
  * @param size 拆分长度，default = 1
  */
 function chunk<T>(array: T[], size = 1): T[][] {
-  if (!Array.isArray(array)) return [];
-
+  if (!Array.isArray(array) || typeof size !== "number") return [];
+  
   const { length } = array;
-  if (length < 1) return [];
+  size = Math.max(Math.floor(size), 0);
+  if (length < 1 || size < 1) return [];
 
   let index = 0;
   let chunkIndex = 0;
@@ -18,4 +19,4 @@ function chunk<T>(array: T[], size = 1): T[][] {
   return result;
 }
 
-export default chunk
+export default chunk;
